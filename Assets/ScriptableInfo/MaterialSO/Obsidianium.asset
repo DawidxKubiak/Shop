@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb9f07bead7bad843a0a15a00c904011, type: 3}
-  m_Name: Land2
+  m_Script: {fileID: 11500000, guid: 601ad3db5fb4afb49ab2f2b373aff4b8, type: 3}
+  m_Name: Obsidianium
   m_EditorClassIdentifier: 
-  infoName: Land2
-  Type: 1
+  infoName: Obsidianium
+  Type: 2
