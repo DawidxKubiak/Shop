@@ -10,7 +10,7 @@ public class EndOfDayScreenManager : MonoBehaviour
     [SerializeField] Transform star1, star2, star3;
     public void EnablePanel()
     {
-        ScoreScreen.DOScale(1, 2f).OnComplete(ShowStars);
+        ScoreScreen.DOScale(1, 1f).OnComplete(ShowStars).SetEase(Ease.OutExpo);
     }
     
     public void ShowStars()
