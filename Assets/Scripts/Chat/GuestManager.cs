@@ -6,6 +6,11 @@ using UnityEngine.Events;
 
 public class GuestManager : MonoBehaviour
 {
+    [SerializeField] Guest currentGuest;
+
+    [Space]
+    [Space]
+
     [SerializeField] GameObject guest;
 
     [SerializeField] Vector3 startPos = new Vector3(-12f,1.85f,0f);
@@ -17,6 +22,7 @@ public class GuestManager : MonoBehaviour
 
     [SerializeField] UnityEvent OnWalkIn;
 
+    
     private void Start()
     {
         guest.transform.position = startPos;

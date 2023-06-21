@@ -12,5 +12,6 @@ public enum InfoType
 {
     itemType,
     origin,
-    material
+    material,
+    condition
 }
